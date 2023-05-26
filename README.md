@@ -18,7 +18,7 @@ Trata-se da criação de um app desenvolvido para a Disciplina de Programação 
 
 ## Organização 📁 
 
-Os arquivos do projeto estão organizados em duas pastas principais, sendo elas: 
+Os arquivos do projeto estão organizados em pastas, sendo elas: 
 
 ```bash
 📂 ListView
