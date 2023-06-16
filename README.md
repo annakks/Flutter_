@@ -34,6 +34,6 @@ Os arquivos do projeto estão organizados em pastas, sendo elas:
 ## Gif Preview
 
 <h1 align="center">
-  <img src="/Gif2.gif" width="300" height="600"/>
+  <img src="/Gif2 (2).gif" width="300" height="600"/>
 </h1>
 
