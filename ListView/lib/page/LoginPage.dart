@@ -43,18 +43,34 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Padding(
-          padding: EdgeInsets.all(16.0),
+      backgroundColor: Color(0xFFFCF4F9), // Cor dominante 60%
+      body: Padding(
+        padding: EdgeInsets.all(50),
+        child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Icon(
-                Icons.store,
-                size: 80,
-                color: Colors.pink
+                Icons.checkroom,
+                size: 90,
+                color: Color(0xFF8A003C), //// cor secundaria 30%
               ),
-              SizedBox(height: 16),
+              SizedBox(height: 5),
+              Text(
+                'Boutique da Carol',
+                style: TextStyle(
+                  fontSize: 25,
+                  color: Color(0xFFA88FAC), /// cor secundária
+                  shadows: [
+                    Shadow(
+                      color: Color(0xFF8A003C),
+                      offset: Offset(2, 2),
+                      blurRadius: 5,
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 60),
               TextField(
                 controller: _usernameController,
                 decoration: InputDecoration(
@@ -69,7 +85,7 @@ class _LoginPageState extends State<LoginPage> {
                   hintText: 'Senha',
                 ),
               ),
-              SizedBox(height: 16.0),
+              SizedBox(height: 50),
               ElevatedButton(
                 onPressed: _login,
                 child: Text('Logar'),
